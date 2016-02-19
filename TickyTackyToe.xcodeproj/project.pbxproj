@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B499E66F1C72B1F500D91BDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B499E66E1C72B1F500D91BDA /* main.m */; };
+		B499E6721C72B1F500D91BDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B499E6711C72B1F500D91BDA /* AppDelegate.m */; };
+		B499E6751C72B1F500D91BDA /* WelcomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B499E6741C72B1F500D91BDA /* WelcomeVC.m */; };
+		B499E6781C72B1F500D91BDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B499E6761C72B1F500D91BDA /* Main.storyboard */; };
+		B499E67A1C72B1F500D91BDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B499E6791C72B1F500D91BDA /* Assets.xcassets */; };
+		B499E67D1C72B1F500D91BDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B499E67B1C72B1F500D91BDA /* LaunchScreen.storyboard */; };
+		B499E6881C72B1F500D91BDA /* TickyTackyToeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B499E6871C72B1F500D91BDA /* TickyTackyToeTests.m */; };
+		B499E6931C72B1F500D91BDA /* TickyTackyToeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B499E6921C72B1F500D91BDA /* TickyTackyToeUITests.m */; };
+		B499E6A21C72BDBB00D91BDA /* GameVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B499E6A11C72BDBB00D91BDA /* GameVC.m */; };
+		B499E6A51C72CD2100D91BDA /* Square.m in Sources */ = {isa = PBXBuildFile; fileRef = B499E6A41C72CD2100D91BDA /* Square.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B499E6841C72B1F500D91BDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B499E6621C72B1F500D91BDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B499E6691C72B1F500D91BDA;
+			remoteInfo = TickyTackyToe;
+		};
+		B499E68F1C72B1F500D91BDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B499E6621C72B1F500D91BDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B499E6691C72B1F500D91BDA;
+			remoteInfo = TickyTackyToe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B499E66A1C72B1F500D91BDA /* TickyTackyToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TickyTackyToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B499E66E1C72B1F500D91BDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B499E6701C72B1F500D91BDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B499E6711C72B1F500D91BDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B499E6731C72B1F500D91BDA /* WelcomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WelcomeVC.h; sourceTree = "<group>"; };
+		B499E6741C72B1F500D91BDA /* WelcomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WelcomeVC.m; sourceTree = "<group>"; };
+		B499E6771C72B1F500D91BDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B499E6791C72B1F500D91BDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B499E67C1C72B1F500D91BDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B499E67E1C72B1F500D91BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B499E6831C72B1F500D91BDA /* TickyTackyToeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TickyTackyToeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B499E6871C72B1F500D91BDA /* TickyTackyToeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TickyTackyToeTests.m; sourceTree = "<group>"; };
+		B499E6891C72B1F500D91BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B499E68E1C72B1F500D91BDA /* TickyTackyToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TickyTackyToeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B499E6921C72B1F500D91BDA /* TickyTackyToeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TickyTackyToeUITests.m; sourceTree = "<group>"; };
+		B499E6941C72B1F500D91BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B499E6A01C72BDBB00D91BDA /* GameVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameVC.h; sourceTree = "<group>"; };
+		B499E6A11C72BDBB00D91BDA /* GameVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameVC.m; sourceTree = "<group>"; };
+		B499E6A31C72CD2100D91BDA /* Square.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Square.h; sourceTree = "<group>"; };
+		B499E6A41C72CD2100D91BDA /* Square.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Square.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B499E6671C72B1F500D91BDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B499E6801C72B1F500D91BDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B499E68B1C72B1F500D91BDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B499E6611C72B1F500D91BDA = {
+			isa = PBXGroup;
+			children = (
+				B499E66C1C72B1F500D91BDA /* TickyTackyToe */,
+				B499E6861C72B1F500D91BDA /* TickyTackyToeTests */,
+				B499E6911C72B1F500D91BDA /* TickyTackyToeUITests */,
+				B499E66B1C72B1F500D91BDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B499E66B1C72B1F500D91BDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B499E66A1C72B1F500D91BDA /* TickyTackyToe.app */,
+				B499E6831C72B1F500D91BDA /* TickyTackyToeTests.xctest */,
+				B499E68E1C72B1F500D91BDA /* TickyTackyToeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B499E66C1C72B1F500D91BDA /* TickyTackyToe */ = {
+			isa = PBXGroup;
+			children = (
+				B499E6761C72B1F500D91BDA /* Main.storyboard */,
+				B499E6701C72B1F500D91BDA /* AppDelegate.h */,
+				B499E6711C72B1F500D91BDA /* AppDelegate.m */,
+				B499E6731C72B1F500D91BDA /* WelcomeVC.h */,
+				B499E6741C72B1F500D91BDA /* WelcomeVC.m */,
+				B499E6A01C72BDBB00D91BDA /* GameVC.h */,
+				B499E6A11C72BDBB00D91BDA /* GameVC.m */,
+				B499E6A31C72CD2100D91BDA /* Square.h */,
+				B499E6A41C72CD2100D91BDA /* Square.m */,
+				B499E6791C72B1F500D91BDA /* Assets.xcassets */,
+				B499E67B1C72B1F500D91BDA /* LaunchScreen.storyboard */,
+				B499E67E1C72B1F500D91BDA /* Info.plist */,
+				B499E66D1C72B1F500D91BDA /* Supporting Files */,
+			);
+			path = TickyTackyToe;
+			sourceTree = "<group>";
+		};
+		B499E66D1C72B1F500D91BDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B499E66E1C72B1F500D91BDA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B499E6861C72B1F500D91BDA /* TickyTackyToeTests */ = {
+			isa = PBXGroup;
+			children = (
+				B499E6871C72B1F500D91BDA /* TickyTackyToeTests.m */,
+				B499E6891C72B1F500D91BDA /* Info.plist */,
+			);
+			path = TickyTackyToeTests;
+			sourceTree = "<group>";
+		};
+		B499E6911C72B1F500D91BDA /* TickyTackyToeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B499E6921C72B1F500D91BDA /* TickyTackyToeUITests.m */,
+				B499E6941C72B1F500D91BDA /* Info.plist */,
+			);
+			path = TickyTackyToeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B499E6691C72B1F500D91BDA /* TickyTackyToe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B499E6971C72B1F500D91BDA /* Build configuration list for PBXNativeTarget "TickyTackyToe" */;
+			buildPhases = (
+				B499E6661C72B1F500D91BDA /* Sources */,
+				B499E6671C72B1F500D91BDA /* Frameworks */,
+				B499E6681C72B1F500D91BDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TickyTackyToe;
+			productName = TickyTackyToe;
+			productReference = B499E66A1C72B1F500D91BDA /* TickyTackyToe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B499E6821C72B1F500D91BDA /* TickyTackyToeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B499E69A1C72B1F500D91BDA /* Build configuration list for PBXNativeTarget "TickyTackyToeTests" */;
+			buildPhases = (
+				B499E67F1C72B1F500D91BDA /* Sources */,
+				B499E6801C72B1F500D91BDA /* Frameworks */,
+				B499E6811C72B1F500D91BDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B499E6851C72B1F500D91BDA /* PBXTargetDependency */,
+			);
+			name = TickyTackyToeTests;
+			productName = TickyTackyToeTests;
+			productReference = B499E6831C72B1F500D91BDA /* TickyTackyToeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B499E68D1C72B1F500D91BDA /* TickyTackyToeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B499E69D1C72B1F500D91BDA /* Build configuration list for PBXNativeTarget "TickyTackyToeUITests" */;
+			buildPhases = (
+				B499E68A1C72B1F500D91BDA /* Sources */,
+				B499E68B1C72B1F500D91BDA /* Frameworks */,
+				B499E68C1C72B1F500D91BDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B499E6901C72B1F500D91BDA /* PBXTargetDependency */,
+			);
+			name = TickyTackyToeUITests;
+			productName = TickyTackyToeUITests;
+			productReference = B499E68E1C72B1F500D91BDA /* TickyTackyToeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B499E6621C72B1F500D91BDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jeremy Bringetto";
+				TargetAttributes = {
+					B499E6691C72B1F500D91BDA = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					B499E6821C72B1F500D91BDA = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = B499E6691C72B1F500D91BDA;
+					};
+					B499E68D1C72B1F500D91BDA = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = B499E6691C72B1F500D91BDA;
+					};
+				};
+			};
+			buildConfigurationList = B499E6651C72B1F500D91BDA /* Build configuration list for PBXProject "TickyTackyToe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B499E6611C72B1F500D91BDA;
+			productRefGroup = B499E66B1C72B1F500D91BDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B499E6691C72B1F500D91BDA /* TickyTackyToe */,
+				B499E6821C72B1F500D91BDA /* TickyTackyToeTests */,
+				B499E68D1C72B1F500D91BDA /* TickyTackyToeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B499E6681C72B1F500D91BDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B499E67D1C72B1F500D91BDA /* LaunchScreen.storyboard in Resources */,
+				B499E67A1C72B1F500D91BDA /* Assets.xcassets in Resources */,
+				B499E6781C72B1F500D91BDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B499E6811C72B1F500D91BDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B499E68C1C72B1F500D91BDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B499E6661C72B1F500D91BDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B499E6751C72B1F500D91BDA /* WelcomeVC.m in Sources */,
+				B499E6721C72B1F500D91BDA /* AppDelegate.m in Sources */,
+				B499E6A21C72BDBB00D91BDA /* GameVC.m in Sources */,
+				B499E6A51C72CD2100D91BDA /* Square.m in Sources */,
+				B499E66F1C72B1F500D91BDA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B499E67F1C72B1F500D91BDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B499E6881C72B1F500D91BDA /* TickyTackyToeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B499E68A1C72B1F500D91BDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B499E6931C72B1F500D91BDA /* TickyTackyToeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B499E6851C72B1F500D91BDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B499E6691C72B1F500D91BDA /* TickyTackyToe */;
+			targetProxy = B499E6841C72B1F500D91BDA /* PBXContainerItemProxy */;
+		};
+		B499E6901C72B1F500D91BDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B499E6691C72B1F500D91BDA /* TickyTackyToe */;
+			targetProxy = B499E68F1C72B1F500D91BDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B499E6761C72B1F500D91BDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B499E6771C72B1F500D91BDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B499E67B1C72B1F500D91BDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B499E67C1C72B1F500D91BDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B499E6951C72B1F500D91BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B499E6961C72B1F500D91BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B499E6981C72B1F500D91BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TickyTackyToe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beachmoss.TickyTackyToe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B499E6991C72B1F500D91BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TickyTackyToe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beachmoss.TickyTackyToe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B499E69B1C72B1F500D91BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TickyTackyToeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beachmoss.TickyTackyToeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TickyTackyToe.app/TickyTackyToe";
+			};
+			name = Debug;
+		};
+		B499E69C1C72B1F500D91BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TickyTackyToeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beachmoss.TickyTackyToeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TickyTackyToe.app/TickyTackyToe";
+			};
+			name = Release;
+		};
+		B499E69E1C72B1F500D91BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TickyTackyToeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beachmoss.TickyTackyToeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TickyTackyToe;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B499E69F1C72B1F500D91BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TickyTackyToeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beachmoss.TickyTackyToeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TickyTackyToe;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B499E6651C72B1F500D91BDA /* Build configuration list for PBXProject "TickyTackyToe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B499E6951C72B1F500D91BDA /* Debug */,
+				B499E6961C72B1F500D91BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B499E6971C72B1F500D91BDA /* Build configuration list for PBXNativeTarget "TickyTackyToe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B499E6981C72B1F500D91BDA /* Debug */,
+				B499E6991C72B1F500D91BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B499E69A1C72B1F500D91BDA /* Build configuration list for PBXNativeTarget "TickyTackyToeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B499E69B1C72B1F500D91BDA /* Debug */,
+				B499E69C1C72B1F500D91BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B499E69D1C72B1F500D91BDA /* Build configuration list for PBXNativeTarget "TickyTackyToeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B499E69E1C72B1F500D91BDA /* Debug */,
+				B499E69F1C72B1F500D91BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B499E6621C72B1F500D91BDA /* Project object */;
+}
